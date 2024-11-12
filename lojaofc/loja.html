@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine</title>
+    <script src="produtos.js"></script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <img src="img/calca.jpg" width="50px" height="50px" alt="calca">
+                <input id="calca" value="Calça" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor1" value="150.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd1" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="1" onclick="prod(this.value)">Add</button>
+            </li>
+            <li>
+                <img src="img/cardigan.jpg" width="50px" height="50px" alt="cardigan">
+                <input id="cardigan" value="Cardigan" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor2" value="100.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd2" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="2" onclick="prod(this.value)">Add</button>
+            </li>
+            <li>
+                <img src="img/regata.jpg" width="50px" height="50px" alt="regata">
+                <input id="regata" value="Regata" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor3" value="50.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd3" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="3" onclick="prod(this.value)">Add</button>
+            <li>
+                <img src="img/saia.jpg" width="50px" height="50px" alt="saia">
+                <input id="saia" value="Saia" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor4" value="80.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd4" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="4" onclick="prod(this.value)">Add</button>
+            <li>
+                <img src="img/vestido.jpg" width="50px" height="50px" alt="vestido">
+                <input id="vestido" value="Vestido" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor5" value="100.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd5" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="5" onclick="prod(this.value)">Add</button>
+            </li>
+            <li>
+                <img src="img/tenis.jpg" width="50px" height="50px" alt="tenis">
+                <input id="tenis" value="Tênis" style="border: 0; margin: 3%; max-width: 10%;" disabled>
+                R$<input id="valor6" value="250.00" style="border: 0; margin: 1%; max-width: 5%;" disabled>
+                Quantidade: <input type="number" id="qtd6" value="1" style="border: 1; margin: 1%; max-width: 3%;">
+                <button type="button" value="6" onclick="prod(this.value)">Add</button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
